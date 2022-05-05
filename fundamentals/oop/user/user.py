@@ -33,6 +33,7 @@ max.make_withdrawl(222)
 max.make_withdrawl(333)
 max.make_withdrawl(111)
 
+
 julien.display_user_balance()
 bob.display_user_balance()
 max.display_user_balance()
