@@ -1,3 +1,6 @@
+from os import PRIO_USER
+
+
 x = [ [5,2,3], [10,8,9] ] 
 students = [
     {'first_name':  'Michael', 'last_name' : 'Jordan'},
@@ -26,8 +29,7 @@ students = [
     ]
 
 def iterateDictionary(students):
-    output = []
     for key, val in students.items():        
         print(key, "-", val)
-    return output
 
+print(iterateDictionary())
