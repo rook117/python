@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .flex {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .square {
+            height: 300px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body></body>
+
+    <h1 class="flex">Welcome!</h1>
+    <div class="flex">
+        {% for i in range(0, num) %}
+        <div class="square" style="background-color: color;"></div>
+        {% endfor %}
+    </div>
+
+
+</body>
+
+</html>
